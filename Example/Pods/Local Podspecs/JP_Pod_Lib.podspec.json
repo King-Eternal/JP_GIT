@@ -1,0 +1,22 @@
+{
+  "name": "JP_Pod_Lib",
+  "version": "0.1.0",
+  "summary": "A short description of JP_Pod_Lib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/307531759@qq.com/JP_Pod_Lib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "307531759@qq.com": "peng.jin@haihangyun.com"
+  },
+  "source": {
+    "git": "https://github.com/307531759@qq.com/JP_Pod_Lib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JP_Pod_Lib/Classes/**/*"
+}
