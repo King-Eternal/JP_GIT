@@ -12,7 +12,7 @@
 		3CB977692061FF4500665584 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3CB977662061FF4400665584 /* .gitkeep */; };
 		3CB9776D2061FF5700665584 /* JPJPLibObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9776C2061FF5700665584 /* JPJPLibObject2.m */; };
 		3CB977732061FFF300665584 /* JPLibObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB977722061FFF300665584 /* JPLibObject.m */; };
-		3CDA17CA20624484000CC073 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA17C920624484000CC073 /* delete.png */; };
+		3CDA17CC20625A39000CC073 /* JP_Pod_lib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA17CB20625A39000CC073 /* JP_Pod_lib.bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -55,7 +55,7 @@
 		3CB9776E2061FF6700665584 /* JPLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLib.h; sourceTree = "<group>"; };
 		3CB977712061FFF300665584 /* JPLibObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLibObject.h; sourceTree = "<group>"; };
 		3CB977722061FFF300665584 /* JPLibObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLibObject.m; sourceTree = "<group>"; };
-		3CDA17C920624484000CC073 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		3CDA17CB20625A39000CC073 /* JP_Pod_lib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JP_Pod_lib.bundle; sourceTree = "<group>"; };
 		543A4747E15CD18D13A30C25 /* Pods_JP_Pod_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JP_Pod_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JP_Pod_Lib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JP_Pod_Lib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,7 +114,7 @@
 		3C86E83D206243A600294150 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3CDA17C920624484000CC073 /* delete.png */,
+				3CDA17CB20625A39000CC073 /* JP_Pod_lib.bundle */,
 				3C86E83E206243A600294150 /* .gitkeep */,
 			);
 			name = Assets;
@@ -325,8 +325,8 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				3CB977692061FF4500665584 /* .gitkeep in Resources */,
+				3CDA17CC20625A39000CC073 /* JP_Pod_lib.bundle in Resources */,
 				3C86E83F206243A600294150 /* .gitkeep in Resources */,
-				3CDA17CA20624484000CC073 /* delete.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
