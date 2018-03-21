@@ -10,4 +10,6 @@
 
 @interface JPJPLibObject2 : NSObject
 
+- (UIImage *)image;
+
 @end

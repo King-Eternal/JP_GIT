@@ -1,8 +1,10 @@
 use_frameworks!
 
 target 'JP_Pod_Lib_Example' do
-  pod 'JP_Pod_Lib', :path => '../'
 
+ 
+  pod 'JP_Pod_Lib'
+  
   target 'JP_Pod_Lib_Tests' do
     inherit! :search_paths
 

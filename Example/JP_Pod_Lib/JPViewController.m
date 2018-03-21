@@ -7,7 +7,7 @@
 //
 
 #import "JPViewController.h"
-#import "JPLibObject.h"
+#import "JPLib.h"
 
 @interface JPViewController ()
 
@@ -21,6 +21,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
     JPLibObject *jp = [[JPLibObject alloc] init];
     [jp testLib];
+    
+    JPJPLibObject2 *obj2 = [[JPJPLibObject2 alloc] init];
+  UIImage *image =  [obj2 image];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    
+    imageView.center = self.view.center;
+    
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning

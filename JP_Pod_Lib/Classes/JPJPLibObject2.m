@@ -10,4 +10,9 @@
 
 @implementation JPJPLibObject2
 
+- (UIImage *)image {
+    UIImage *image = [UIImage imageNamed:@"delete"];
+    return image;
+}
+
 @end
