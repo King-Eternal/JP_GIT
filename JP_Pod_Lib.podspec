@@ -32,9 +32,7 @@ TODO: Add long description of the pod here.没有了
 
   s.source_files = 'JP_Pod_Lib/Classes/**/*'
   
-  s.resource_bundles = {
-     'JP_Pod_Lib' => ['JP_Pod_Lib/Assets/*.png']
-   }
+  s.resource = 'JP_Pod_Lib/Assets'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
