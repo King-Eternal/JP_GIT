@@ -81,7 +81,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DDD5E6602202AE7D4C40B6E /* Pods-JP_Pod_Lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JP_Pod_Lib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JP_Pod_Lib_Example/Pods-JP_Pod_Lib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFB5CF1905A7B3A6AA427097 /* Pods-JP_Pod_Lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JP_Pod_Lib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JP_Pod_Lib_Example/Pods-JP_Pod_Lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F68415D946466D8FC966B6CD /* JP_Pod_Lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JP_Pod_Lib.podspec; path = ../JP_Pod_Lib.podspec; sourceTree = "<group>"; };
+		F68415D946466D8FC966B6CD /* JP_Pod_Lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JP_Pod_Lib.podspec; path = ../JP_Pod_Lib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

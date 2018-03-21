@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JP_Pod_Lib'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = '测试组件库'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.没有了
 
   s.source_files = 'JP_Pod_Lib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JP_Pod_Lib' => ['JP_Pod_Lib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'JP_Pod_Lib' => ['JP_Pod_Lib/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
