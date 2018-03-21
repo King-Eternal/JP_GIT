@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JP_Pod_Lib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JP_Pod_Lib.'
+  s.version          = '0.0.1'
+  s.summary          = '测试组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here.没有了
                        DESC
 
-  s.homepage         = 'https://github.com/307531759@qq.com/JP_Pod_Lib'
+  s.homepage         = 'https://github.com/King-Eternal/JP_GIT'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '307531759@qq.com' => 'peng.jin@haihangyun.com' }
-  s.source           = { :git => 'https://github.com/307531759@qq.com/JP_Pod_Lib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/King-Eternal/JP_GIT.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

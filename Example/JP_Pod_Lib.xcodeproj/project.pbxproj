@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB977642061FE3700665584 /* JP_Pod_Lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB977632061FE3700665584 /* JP_Pod_Lib.framework */; };
+		3CB977692061FF4500665584 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3CB977662061FF4400665584 /* .gitkeep */; };
+		3CB9776D2061FF5700665584 /* JPJPLibObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9776C2061FF5700665584 /* JPJPLibObject2.m */; };
+		3CB977732061FFF300665584 /* JPLibObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB977722061FFF300665584 /* JPLibObject.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AB4FCF35D7B8493EC4E200F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0AB4FCF35D7B8493EC4E200F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CDEF05A777F054C2E616A72 /* Pods_JP_Pod_Lib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JP_Pod_Lib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2771557B97F1D29AC754E13C /* Pods-JP_Pod_Lib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JP_Pod_Lib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JP_Pod_Lib_Tests/Pods-JP_Pod_Lib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30B7283C9F538AB9865BCC58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30B7283C9F538AB9865BCC58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3CB977632061FE3700665584 /* JP_Pod_Lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JP_Pod_Lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB977662061FF4400665584 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3CB9776B2061FF5700665584 /* JPJPLibObject2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPJPLibObject2.h; sourceTree = "<group>"; };
+		3CB9776C2061FF5700665584 /* JPJPLibObject2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPJPLibObject2.m; sourceTree = "<group>"; };
+		3CB9776E2061FF6700665584 /* JPLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLib.h; sourceTree = "<group>"; };
+		3CB977712061FFF300665584 /* JPLibObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLibObject.h; sourceTree = "<group>"; };
+		3CB977722061FFF300665584 /* JPLibObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLibObject.m; sourceTree = "<group>"; };
 		543A4747E15CD18D13A30C25 /* Pods_JP_Pod_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JP_Pod_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JP_Pod_Lib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JP_Pod_Lib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +77,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DDD5E6602202AE7D4C40B6E /* Pods-JP_Pod_Lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JP_Pod_Lib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JP_Pod_Lib_Example/Pods-JP_Pod_Lib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFB5CF1905A7B3A6AA427097 /* Pods-JP_Pod_Lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JP_Pod_Lib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JP_Pod_Lib_Example/Pods-JP_Pod_Lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F68415D946466D8FC966B6CD /* JP_Pod_Lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JP_Pod_Lib.podspec; path = ../JP_Pod_Lib.podspec; sourceTree = "<group>"; };
+		F68415D946466D8FC966B6CD /* JP_Pod_Lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JP_Pod_Lib.podspec; path = ../JP_Pod_Lib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB977642061FE3700665584 /* JP_Pod_Lib.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -95,6 +107,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CB977652061FF4400665584 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CB977662061FF4400665584 /* .gitkeep */,
+				3CB9776E2061FF6700665584 /* JPLib.h */,
+				3CB977712061FFF300665584 /* JPLibObject.h */,
+				3CB977722061FFF300665584 /* JPLibObject.m */,
+				3CB9776B2061FF5700665584 /* JPJPLibObject2.h */,
+				3CB9776C2061FF5700665584 /* JPJPLibObject2.m */,
+			);
+			name = Classes;
+			path = ../JP_Pod_Lib/Classes;
+			sourceTree = "<group>";
+		};
 		4A16F3C5A9D928F620519DC4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +135,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				3CB977652061FF4400665584 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for JP_Pod_Lib */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -130,6 +157,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CB977632061FE3700665584 /* JP_Pod_Lib.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -281,6 +309,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3CB977692061FF4500665584 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -406,9 +435,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB9776D2061FF5700665584 /* JPJPLibObject2.m in Sources */,
 				6003F59E195388D20070C39A /* JPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3CB977732061FFF300665584 /* JPLibObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

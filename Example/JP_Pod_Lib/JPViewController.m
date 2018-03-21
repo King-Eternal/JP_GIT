@@ -7,6 +7,7 @@
 //
 
 #import "JPViewController.h"
+#import "JPLibObject.h"
 
 @interface JPViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    JPLibObject *jp = [[JPLibObject alloc] init];
+    [jp testLib];
 }
 
 - (void)didReceiveMemoryWarning
