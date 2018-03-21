@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JP_Pod_Lib_Example' do
+  pod 'JP_Pod_Lib', :path => '../'
+
+  target 'JP_Pod_Lib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
